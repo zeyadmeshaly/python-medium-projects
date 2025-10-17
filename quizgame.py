@@ -40,19 +40,7 @@ print()
 
 score = int(score/len(answers)) * 100
 
-if score >= 95:
-    print("excellant")
-elif score >= 90 and score < 95:
-    print("very good")
-elif score >= 80 and score < 90:
-    print("good")
-elif score >=70 and score < 80:
-    print("weak")
-else:
-    print("very weak")
-print(f"your score is: {score}% ")
-
-
 import os
 os.system("pause")
+
 
