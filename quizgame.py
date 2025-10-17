@@ -38,9 +38,10 @@ for answer in answers:
     print(answer, end="")
 print()
 
-score = int(score/len(answers)) * 100
+score = (score / len(answers))*100
+
+print(f"{score}%")
 
 import os
 os.system("pause")
-
 
